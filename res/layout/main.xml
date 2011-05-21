@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/linearLayout1" android:layout_height="fill_parent" android:orientation="vertical" android:layout_width="wrap_content">
+        <EditText android:id="@+id/editText1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="120pt" android:numeric="decimal" android:singleLine="true"></EditText>
+        <EditText android:id="@+id/editText2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="120pt" android:numeric="decimal" android:singleLine="true"></EditText>
+        <AbsoluteLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/absoluteLayout1">
+            <Button android:text="+" android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:height="15pt" android:layout_x="37dip" android:layout_y="-1dip"></Button>
+            <Button android:text="-" android:id="@+id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="93dip" android:layout_y="0dip"></Button>
+            <Button android:text="x" android:id="@+id/button3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="149dip" android:layout_y="-1dip"></Button>
+            <Button android:text="/" android:id="@+id/button4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="216dip" android:layout_y="0dip"></Button>
+        </AbsoluteLayout>
+        <TextView android:layout_width="wrap_content" android:id="@+id/textView1" android:layout_height="wrap_content" android:text="-" android:textSize="16pt" android:width="120pt" android:singleLine="true"></TextView>
+    </LinearLayout>
+   
